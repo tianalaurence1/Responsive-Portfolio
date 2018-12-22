@@ -215,3 +215,22 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+body {
+  background-color: lightblue;
+}
+@media screen and (min-width: 980px) {
+  body {
+    background-color: lightgreen;
+  }
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  body {
+    background-color: lavender;
+  }
+}
